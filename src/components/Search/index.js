@@ -497,7 +497,7 @@ export const Search = ({ small = false }) => {
             // update displayed names
             updateNameData({ token0: token })
             return (
-              <BasicLink to={'/token/' + token.id} key={token.id} onClick={onDismiss}>
+              <BasicLink to={'/uniswap-info/token/' + token.id} key={token.id} onClick={onDismiss}>
                 <MenuItem>
                   <RowFixed>
                     <TokenLogo address={token.id} style={{ marginRight: '10px' }} />

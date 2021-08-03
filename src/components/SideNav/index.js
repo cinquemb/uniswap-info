@@ -125,8 +125,8 @@ function SideNav({ history }) {
                 <BasicLink to="/tokens">
                   <Option
                     activeText={
-                      (history.location.pathname.split('/')[1] === 'tokens' ||
-                        history.location.pathname.split('/')[1] === 'token') ??
+                      (history.location.pathname.split('/')[3] === 'tokens' ||
+                        history.location.pathname.split('/')[3] === 'token') ??
                       undefined
                     }
                   >
@@ -137,8 +137,8 @@ function SideNav({ history }) {
                 <BasicLink to="/pairs">
                   <Option
                     activeText={
-                      (history.location.pathname.split('/')[1] === 'pairs' ||
-                        history.location.pathname.split('/')[1] === 'pair') ??
+                      (history.location.pathname.split('/')[3] === 'pairs' ||
+                        history.location.pathname.split('/')[3] === 'pair') ??
                       undefined
                     }
                   >
@@ -150,8 +150,8 @@ function SideNav({ history }) {
                 <BasicLink to="/accounts">
                   <Option
                     activeText={
-                      (history.location.pathname.split('/')[1] === 'accounts' ||
-                        history.location.pathname.split('/')[1] === 'account') ??
+                      (history.location.pathname.split('/')[3] === 'accounts' ||
+                        history.location.pathname.split('/')[3] === 'account') ??
                       undefined
                     }
                   >
